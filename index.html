@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="https://www.w3schools.com/action_page.php">
+        <label for="data">Data:</label><br><!--Cria Data-->
+        <input type="date" id="data" name="data"><br>
+
+        <h3>Dados de Acesso</h3>
+        <label for="user">Usuario:</label><br>
+        <input type="text" id="user" name="user"><br><br>
+        <label for="senha">Senha:</label><br><!--Usuario e Senha-->
+        <input type="password" id="senha" name="senha"><br>
+
+        <h3>Dados Pessoais</h3>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br><!--Nome-->
+
+        <label for="endereco">Endereço:</label><br>
+        <input type="text" id="endereço" name="endereco"><br><br><!--Endereço-->
+
+        <label for="numero">Número:</label><br>
+        <input type="number" id="numero" name="numero"><br><br><!--Numero do Endereço-->
+
+        <label for="complemento">Complemento:</label><br>
+        <input type="text" id="complemento" name="complemento"><br><br><!--Complemento-->
+
+        <label for="cidades">Cidades:</label><br>
+        <input list="cidades" name="Cidades">
+        <datalist id="cidades">
+            <option value="Sorocaba">
+            <option value="Votorantim">
+            <option value="São Roque">
+            <option value="Mairinque">
+            <option value="Araçoiaba da Serra"><!--Cidades-->
+        </datalist>
+        <input type="submit"><br><br>
+
+        <label for="estados">Estado:</label><br>
+        <select id="estados" name="estados">
+            <option value="volvo">São Paulo</option>
+            <option value="saab">Recife</option>
+            <option value="fiat">Rio de Janeiro</option>
+            <option value="audi">Mato Grosso</option><!--Estados-->
+        </select><br><br>
+
+        <label for="cep">CEP:</label><br>
+        <input type="text" id="cep" name="cep"><br><br><!--CEP-->
+
+        <label for="masculino">Gênero:</label><br>
+        <input type="radio" id="masculino" name="masculino" value="masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="feminino" value="feminino">
+        <label for="feminino">feminino</label><br>
+        <input type="radio" id="outro" name="outro" value="outro">
+        <label for="outro">Prefiro Não Falar</label>
+    </form>
+
+    
+    
+</body>
+</html>

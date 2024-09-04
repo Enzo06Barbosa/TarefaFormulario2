@@ -16,6 +16,7 @@
         <input type="text" id="user" name="user"><br><br>
         <label for="senha">Senha:</label><br><!--Usuario e Senha-->
         <input type="password" id="senha" name="senha"><br>
+    
 
         <h3>Dados Pessoais</h3>
         <label for="nome">Nome:</label><br>
@@ -30,6 +31,7 @@
         <label for="complemento">Complemento:</label><br>
         <input type="text" id="complemento" name="complemento"><br><br><!--Complemento-->
 
+
         <label for="cidades">Cidades:</label><br>
         <input list="cidades" name="Cidades">
         <datalist id="cidades">
@@ -38,8 +40,8 @@
             <option value="São Roque">
             <option value="Mairinque">
             <option value="Araçoiaba da Serra"><!--Cidades-->
-        </datalist>
-        <input type="submit"><br><br>
+        </datalist><br><br>
+
 
         <label for="estados">Estado:</label><br>
         <select id="estados" name="estados">
@@ -49,19 +51,42 @@
             <option value="audi">Mato Grosso</option><!--Estados-->
         </select><br><br>
 
+
         <label for="cep">CEP:</label><br>
-        <input type="text" id="cep" name="cep"><br><br><!--CEP-->
+        <input type="number" id="cep" name="cep"><br><br><!--CEP-->
+
 
         <label for="masculino">Gênero:</label><br>
-        <input type="radio" id="masculino" name="masculino" value="masculino">
+        <input type="radio" id="masculino" name="genero_t" value="masculino">
         <label for="masculino">Masculino</label><br>
-        <input type="radio" id="feminino" name="feminino" value="feminino">
+        <input type="radio" id="feminino" name="genero_t" value="feminino">
         <label for="feminino">feminino</label><br>
-        <input type="radio" id="outro" name="outro" value="outro">
-        <label for="outro">Prefiro Não Falar</label><!--Genero-->
+        <input type="radio" id="outro" name="genero_t" value="outro">
+        <label for="outro">Prefiro Não Falar</label><br><br><!--Genero-->
+
+
+        <label for="cursos">Cursos:</label><br>
+        <input type="checkbox" id="ads" name="ads" value="ads">
+        <label for="ads">ADS</label><br>
+        <input type="checkbox" id="jogos" name="jogos" value="jogos">
+        <label for="jogos">Jogos</label><br>
+        <input type="checkbox" id="gestao" name="gestao" value="gestao">
+        <label for="gestao">Gestão</label><br>
+        <input type="checkbox" id="bancodedados" name="bancodedados" value="bancodedados">
+        <label for="bancodedados">Banco de Dados</label><br><br><!--Curso-->
+
+
+        <label for="masculino">Modelo:</label><br>
+        <input type="radio" id="presencial" name="modelo_fav" value="presencial">
+        <label for="presencial">Presencial</label><br>
+        <input type="radio" id="remoto" name="modelo_fav" value="remoto">
+        <label for="remoto">EAD</label><br>
+        <input type="radio" id="semipresencial" name="modelo_fav" value="semipresencial">
+        <label for="semipresencial">Semi Presencial</label><br><br><!--Modelo-->
+
+
+        <input type="submit" value="Enviar"><!--Botão Enviar-->
     </form>
 
-    
-    
 </body>
 </html>
